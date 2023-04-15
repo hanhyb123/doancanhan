@@ -1,0 +1,695 @@
+body{
+  margin: 0 ;/* khoanrg cach cua noi dung*/
+  padding: 0;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  background-color: #f3f3f3  ;
+  
+}
+
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+ 
+} 
+.wrapper_chitiet{
+
+background-color: rgb(230 243 243);
+border: 1px solid black;
+margin: 0 auto;
+width: 96%;
+height: 500px;
+
+}
+.wrapper_chitiet p{
+
+ color: black;
+ text-align: center;
+
+}
+
+/* .hinhanh_sanpham{
+  float: left;
+  margin-top: 40px;
+  width: 50%;
+  margin-left: 270px;
+  margin-right: -310px;
+}
+.hinhanh_sanpham img{
+  width: 50%;
+  margin-top: -40px;
+  margin-left: 150px;
+  height: 300px;
+}  */
+.chitiet_sanpham{
+ text-align: center;
+ float:left;
+ width: 45%;
+}
+.chitiet_sanpham p{
+ color: red;
+}
+input.themgiohang {
+ width: 200px;
+ border-radius: 20px;
+}
+input.themgiohang:hover {
+background-color: coral;
+}
+.header {
+ background-color:white;
+  /* background-image: url("../images/lo.jpg"); */
+   /* background-repeat: no-repeat;ko lạp lại hinh anhe */
+  /* background-size: 100% 132px; */
+  /* border: 1px solid #000; */
+  width: auto;
+  height: 129px;
+  display: block;
+  /* position: fixed; */
+  
+}
+/* .km{
+ border: 3px solid rgb(249, 170, 170);
+ width: 30%;
+ height: 300px;
+ float : left ;
+ margin-top: 290px;
+ background-image: url("../images/kmaib.webp");
+
+} */
+
+header img{
+  width: 96px;
+  height: 86px;
+  float: left;
+  margin-left: 85px;
+  list-style: none;
+  text-align: none;
+}
+
+ul.product_list{
+ padding-left: 0px;
+ padding-right: 40px;
+ margin: 0;
+ list-style: none;
+ width: 93%;
+}
+ul.product_list li{
+  width: 13%;
+  border: 1px solid white; 
+  margin: 4px;
+  float: left;
+  background: white; 
+}
+ul.product_list li img{
+ width: 100%;
+}
+.menu{
+ background-color: #f3f3f3; 
+   border: 1px solid white;
+   width: auto;
+   height: 60px;
+   margin-left: 0px;
+   display: block;
+   /* position: fixed; */
+}
+ul.list_menu{
+   margin-top: 10px; 
+  padding-left: 60px;
+  margin-right: 20px;
+  list-style: none;
+  width: 90%;
+  line-height:30px ;
+}
+ul.list_menu li{
+  float:left;
+  margin-left: 85px;
+  margin-top: 5px;
+  padding:10 px;
+}
+ul.list_menu li a{
+  text-decoration: none; /*bo dau gach chan*/
+  text-align: center;
+  color:rgb(26, 27, 26);
+  font-size: 17px;
+}
+ul.list_menu li:hover{
+  background-color: chartreuse; /* them mau khi dua chuot den*/
+}
+#main{
+  /* border: 1px ;  */
+  display: block;
+  width: 95%;
+  height: auto;
+ 
+}
+
+.sidebar{
+   /* border: 1px solid #deb1ed;  */
+  width: 15%;
+  height: auto;
+  margin-top: 26px;
+  margin-left: 60px;
+  float: left; /*cach thanh phan ke tieo trong id se nam ve ben trai */
+
+}
+ul.list_sidebar {
+  margin:0 ;
+ padding: 0;
+ width: 100%;
+ /* border: 1px solid white ; */
+ list-style: none;
+ line-height:27px; 
+
+}
+ul.list_sidebar li {
+  margin: 15px;
+  padding: 9px;
+}
+ul.list_sidebar li a{
+  text-decoration: none;
+  text-align: center;
+  color:black;
+  display: block;
+  font-size: 20px;
+  
+}
+ul.list_sidebar li a:hover{
+  background-color: rgb(179, 177, 81);
+}
+.maincontent{
+ width: auto;
+ height: auto;
+  /* border: 4px solid red ; 
+  background-color:#eee8f0; */
+  /* float:right; */
+  margin-top: 20px;
+  margin-right: -50px;
+  display: block;
+  /* margin-left: 200px; */
+}
+ul.product_list{
+ 
+ padding: 10px;
+ margin: 0;
+ list-style: none;
+ width: 100%;
+}
+ul.product_list li{
+ width: 12%;
+ border: 1px dashed rgb(140, 140, 94); 
+ margin-top:10px;
+ margin-left: 5px;
+ margin-right: -1px;
+ padding: 0 auto;
+ float: left;
+ background: rgb(132, 198, 108); 
+}
+
+ul.product_list li img{
+ width: 100%;
+}
+p.title_product{
+ text-align: center;
+ color:#000;
+ font-size: 10px;
+ font-weight: bold;
+ text-decoration: none;
+}
+p.price_product{
+ text-align: center   ;
+ color: rgb(132, 33, 185);
+ font-size: 16px;
+ font-weight: bold;
+}
+.footer{
+  /* border: 3px solid #000; */
+  width: 100%;
+  height: 336px;
+  background: #272d2a;
+  font-size: 20px;
+  display: block;
+  /* background-image: url('../images/footernk.png'); */
+  background-color: rgb(32, 32, 32)
+  
+}
+.footer1{
+ width: 15%;
+ padding-left: 25px;
+ margin-top: 30px;
+ float: left;
+}
+ul.footer1{
+ list-style: none;
+
+}
+ul.footer1 li{
+ margin: 0px;
+ padding: 0px;
+ 
+}
+ul.footer1 li a{
+ text-decoration: none; /*bo dau gach chan*/
+ text-align: center;
+ color: rgb(224, 223, 223);
+ font-size: 17px;
+}
+.footer2{
+width:25%;
+margin-left: 50px;
+margin-right: 70px;
+margin-top: 10px;
+float: left;
+}
+ul.footer2{
+list-style: none;
+
+}
+/* ul.footer2 li{
+margin-left: 0px;
+padding: 0px;
+} */
+ul.footer2 li a{
+text-decoration: none; /*bo dau gach chan*/
+text-align: center;
+color:white;
+font-size: 17px;
+float: left;
+margin-left: 10px;
+}
+ul.footer2 li img{
+width: 100%;
+}
+
+.clear{
+  clear: both;/* tat ca se k do ve trai hay phai nua*/
+}
+h3{
+ font-size: 20px;
+}
+.logo{
+ width: 10%;
+ height: 10px;
+ display: block;
+
+}
+.logo a{
+ margin-left: 10px;
+
+} 
+.logo a img{
+width: 100%;
+}
+
+a{
+ text-decoration: none;
+}
+form{
+  display: block;
+    margin-left: 60px;
+}
+
+input{
+margin-top: 20px;
+margin-left: -125px;
+width: 430px;
+height: 35px;
+background-color: #f5f5f9;
+color: rgb(208, 61, 88);
+border-radius: 10px;
+font-size: 20px;
+
+
+}
+button{
+padding-top: 7px;
+margin-left: -55px;
+margin-top: 18px;
+width: 50px;
+height: 38px;
+text-align: center;
+border-radius: 8px;
+background-color: white;
+ 
+}
+.tim{
+padding-left: 200px;
+margin-top: 10px;
+}
+.list{
+float: right;
+margin-top: 20px;
+margin-left: 200px;
+}
+ul.list{
+ list-style: none;
+ width: 58%;
+ margin-top: -37px ;
+ line-height:40px ;
+
+}
+ul.list li{
+float: left;
+ margin-right: 100px;
+ margin-top: 10px;
+ padding: 0;
+}
+ul.list li a{
+ text-decoration: none; /*bo dau gach chan*/
+ text-align: center;
+ color:rgb(26, 27, 26);
+ font-size: 20px;
+ margin-left: -45px;
+}
+ul.list li a:hover{
+ background-color: rgb(220, 230, 220); /* them mau khi dua chuot den*/
+ height: auto;
+}
+
+p{
+  color:antiquewhite;
+  font-size: 20px;
+}
+.logokm{
+ border: 1px solid #ab6c6c;
+ /* background-image: url("../images/logoheader.webp"); */
+ background-color:  rgb(166, 72, 72);
+ width: 92.5%;
+ height: 280px;
+ margin-left:50px ; 
+ margin-top: 20px;
+ margin-bottom: 20px;
+
+}
+.logokm img{
+width: 100%;
+}
+/* .logokm1{ */
+/* border: 1px solid #ab6c6c; */
+/* background-image: url("../images/logoheader.webp"); */
+/* background-color:  rgb(166, 72, 72); */
+/* width: 94%;
+height: 291px;
+margin-left:40px ; 
+margin-top: 20px;
+margin-bottom: 20px;
+display: block; */
+
+/* } */
+/* .logokm1 img{
+width: 100%;
+} */
+
+h2.spbanchay{
+ width: 500%;
+ animation: slideshow 16s  infinite;
+}
+
+p.p{
+ color: #ff3300;
+ margin-top: 10px;
+ margin-left: 200px;
+}
+
+
+.slideshow-container {
+ max-width: 500px;
+ position: relative;
+ margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+   display: none;
+}
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+ cursor:pointer;
+ height: 13px;
+ width: 13px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 3s;
+ animation-name: fade;
+ animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+ from {opacity: .4} 
+ to {opacity: 1}
+}
+
+@keyframes fade {
+ from {opacity: .4} 
+ to {opacity: 1}
+}
+
+.hangdt{
+border: 1px solid rgb(248, 242, 242);
+width: auto;
+background-color: green;
+height: auto;
+color: #fff;
+display: block;
+margin-top: -5px;
+}
+
+.hangdt ul {
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 30%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  transition-property: transform;
+  box-sizing: content-box;
+  margin-left: -45px;
+}
+
+.hangdt ul img {
+  margin-bottom: 20px;
+  margin-right: -85px;
+  
+}
+
+.hangdt ul li{
+  padding: 0 100px;
+}
+
+.hangdt ul li img {
+  height: 46px;
+}
+
+ul.hang{
+ list-style: none;
+ /* margin: -50px ; */
+}
+ul.hang li{
+ margin-left: 8px;
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+  /* border: 1px solid rgb(236, 189, 189); */
+     width:19%;
+  height: auto;
+
+}
+ul.hang li p{
+color:black;
+}
+ul.hang li a{
+ text-decoration: none; /*bo dau gach chan*/
+
+
+}
+ul.hang li img{
+ width: 100%;
+ border-radius: 50px;
+}
+
+ul.hang1{
+ list-style: none;
+ /* margin: -50px ; */
+}
+ul.hang1 li{
+ margin-left: 8px;
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+  /* border: 1px solid rgb(236, 189, 189); */
+  width:19%;
+  height: auto;
+}
+ul.hang1 li p{
+color:black;
+}
+ul.hang1 li a{
+ text-decoration: none; /*bo dau gach chan*/
+
+
+}
+ul.hang1 li img{
+ width: 100%;
+ border-radius: 30px;
+}
+.giohang{
+ /* border: 1px solid red; */
+ float:left;
+ width: 70%;
+ height: auto;
+ margin-left: 19%;
+
+}
+
+
+/*----chu chay-----*/
+.marquee {
+height: 50px; 
+overflow: hidden;
+position: relative;
+/* background-color: rgb(145, 143, 141); */
+}
+.marquee p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+color: red;
+font-size: 30px;
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%); 
+transform:translateX(100%);
+/* Apply animation to this element */ 
+-moz-animation: scroll-left 25s linear infinite;
+-webkit-animation: scroll-left 25s linear infinite;
+animation: scroll-left 25s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0%   { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0%   { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0%   { 
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%);   
+}
+100% { 
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%); 
+}
+}
+
+
+/*sileshow */
+.slider-item{
+width: 100vw;
+height: 90vh;
+position: relative;
+}
+/* .slider-item::before{
+content: "";
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(163, 163, 163, 0.4);
+} */
+.slider-item-one{
+background-image: url("../images/slider_1.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.slider-item-two{
+background-image: url("../images/slider_2.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.slider-item-three{
+background-image: url("../images/slider_3.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.slider-item-four{
+background-image: url("../images/slider_4.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.slider-item-five{
+background-image: url("../images/slider_5.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.slider-item-six{
+background-image: url("../images/slider_6.jfif");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.owl-prev{
+position:absolute;
+left: 0;
+top:50%;
+transform: translateY(-50%);
+font-size: 100px!important;
+color: aqua!important;
+}
+.owl-next{
+position:absolute;
+right: 0;
+top:50%;
+transform: translateY(-50%);
+font-size: 100px!important;
+color: aqua!important;
+}
+.owl-prev,.owl-next:hover{
+background: none!important;
+}
+
+/* cac nut hien thi so luong hinh anh*/
+/* .owl-dot{
+width: 23px;
+height: 23px;
+border: 2px solid #fff!important;
+border-radius: 50%;
+display: flex!important;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+} */
+.owl-dot span{
+width: 15px!important;
+height: 15px!important;
+margin: 0!important;
+/* background-color: transparent!important; */
+}

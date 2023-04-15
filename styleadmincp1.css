@@ -1,0 +1,173 @@
+.wrapper {
+    border: 5px solid #000;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(198, 122, 23);
+}
+.menuadmincp{
+    background-color: aquamarine;
+    border: 1px solid #000;
+    width: 100%;
+    height: 80px;
+}
+ul.menuadmincp {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.menuadmincp li{
+    float:left;
+    margin-top: 25px;
+    margin-right: 70px;
+    padding-left:83px;
+}
+ul.menuadmincp li a{
+    text-decoration: none; /*bo dau gach chan*/
+    text-align: center;
+    color:#ff3300;
+    font-size: 18px;
+ }
+ ul.menuadmincp li:hover{
+    background-color: chartreuse; /* them mau khi dua chuot den*/
+ }
+.clear{
+    clear: both;
+}
+h3{
+   
+    margin-block-end: 1cm;
+    margin-block-start: 1cm;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    font-weight: bold;
+}
+h3.title_admin{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(162, 22, 222);
+}
+h2{
+    color:rgb(113, 200, 6);
+    text-align: center;
+}
+.home
+{
+    width: 100%;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(41, 112, 160);
+    color:rgb(34, 185, 102);
+    
+}
+input{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    margin-left: 20px;
+    color:darkorange;
+    font-size: 20px;
+
+}
+button{
+    width: 115px;
+    height: 40px;
+    text-align: center;
+    background-color: aqua;
+}
+button :hover{
+    background-color: rgb(29, 140, 200);
+}
+/* table{
+    width: 50%;
+    height: auto;
+    text-align: center;
+} */
+.them{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-left: 0 auto;
+    text-align: center;
+}
+.title_admin{
+    border: 1px solid #000;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+
+}
+.footer{
+    margin-top:30px ;
+    padding-top: 5px;
+    border: 3px solid #0099ff;
+    text-align: center;
+    background-color: aquamarine;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/2.jpg');
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(0, 0, 0 , 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+}
